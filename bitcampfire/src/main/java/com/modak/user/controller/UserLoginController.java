@@ -14,15 +14,7 @@ public class UserLoginController {
 	@Autowired
 	UserService userService;
 	
-	@GetMapping("/test")
-	public String test(Model m) {
-			int testCnt = userService.getCount();
-			m.addAttribute("testCnt","count"+testCnt);
-			System.out.print("userLoginController..! /loging/test mapping test..!");
-			System.out.print(testCnt);
-		
-		return "/user/userLogin/userLoginForm";
-	}
+
 	
 	
 }

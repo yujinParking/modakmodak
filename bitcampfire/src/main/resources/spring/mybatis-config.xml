@@ -4,6 +4,6 @@
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
     <typeAliases>
-        <typeAlias alias="UserDto" type="com.modak.user.bean.UserDto"/>
+        <typeAlias alias="user" type="com.modak.user.bean.UserDto"/>
     </typeAliases>
 </configuration>

@@ -1,7 +1,12 @@
 package com.modak.user.service;
 
+import com.modak.user.bean.UserDto;
+
 public interface UserService {
 
-	public int getCount();
+
+	public String userSignup_idCheck(String user_id);
+
+	public void SignupComplete(UserDto userDto);
 
 }
